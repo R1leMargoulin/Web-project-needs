@@ -104,9 +104,9 @@
             $tmpLDMName = $_FILES['motiv']['tmp_name'];
             $uniqueNameCV = md5(uniqid(rand(), true));
             $uniqueNameLDM = md5(uniqid(rand(), true));
-            $CVName = "../VH_2/Uploaded_files/".$uniqueNameCV.$CVExt;
+            $CVName = "Uploaded_files/".$uniqueNameCV.$CVExt;
             echo $CVName;
-            $LDMName = "../VH_2/Uploaded_files/".$uniqueNameLDM.$LDMExt;
+            $LDMName = "Uploaded_files/".$uniqueNameLDM.$LDMExt;
             $CVresult = move_uploaded_file($tmpCVName,$CVName);
             $LDMresult = move_uploaded_file($tmpLDMName,$LDMName);
         

@@ -6,5 +6,6 @@
 # Consignes pour le lancement du projet
 
 -Le fichier 'config.php' vous permet de rentrer vos informations concernant les différentes variables pour la connexion à la base de données
--Connectez vous avec l'URL de votre choix ( en l'indiquant dans la variable $URLStaticFiles )
+-Indiquer le DocumentRoot et le Directory dans le httpd.conf
+-Connectez vous avec l'URL de votre choix (ex : localhost)
 -Découvrez Needs.com ! :)

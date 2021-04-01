@@ -1,5 +1,5 @@
 self.addEventListener('install', evt => { 
-    evt.waitUntil( caches.open(NomDuCache).then(cache => {
+    evt.waitUntil( caches.open('NomDuCache').then(cache => {
         cache.addAll(assets);
         })
         )

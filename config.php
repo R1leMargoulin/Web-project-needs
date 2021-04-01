@@ -3,6 +3,6 @@ $DatabaseName = 'webmaster' ;
 $UserName = 'root';
 $UserPassword = '';
 $Port = 3306;
-$URLStaticFiles = "/localhost/assets/";
+$URLStaticFiles = "/assets/";
 $charset ='utf8';
 ?>
