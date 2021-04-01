@@ -1,0 +1,71 @@
+.transitionY {
+  -webkit-transform: translateY(-75px);
+          transform: translateY(-75px);
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+.transition-Y {
+  -webkit-transform: translateY(200px);
+          transform: translateY(200px);
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+.transitionmin2-Y {
+  -webkit-transform: translateY(-75px);
+          transform: translateY(-75px);
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+.transitionmin-Y {
+  -webkit-transform: translateY(-75px);
+          transform: translateY(-75px);
+  -webkit-transition: -webkit-transform 0.4s ease-in;
+  transition: -webkit-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
+}
+
+.mobile div {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.mobileCrossP {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+
+.mobileCrossM {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+
+.marginB {
+  position: absolute;
+  margin-bottom: 200px;
+}
+
+.marginT {
+  position: absolute;
+  margin-top: 200px;
+}
+/*# sourceMappingURL=animation.css.map */

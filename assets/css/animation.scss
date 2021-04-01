@@ -1,0 +1,38 @@
+.transitionY {
+    transform: translateY(-75px);
+    transition: transform 0.4s ease-in;
+  }
+  .transition-Y {
+    transform: translateY(200px);
+    transition: transform 0.4s ease-in;
+  }
+  .transitionmin2-Y {
+    transform: translateY(-75px);
+    transition: transform 0.4s ease-in;
+  }
+  .transitionmin-Y {
+    transform: translateY(-75px);
+    transition: transform 0.4s ease-in;
+  }
+  .mobile div {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .mobileCrossP {
+    transform: rotate(45deg);
+    transition: transform 0.2s ease-in;
+  }
+  .mobileCrossM {
+    transform: rotate(-45deg);
+    transition: transform 0.2s ease-in;
+  }
+  .marginB {
+    position: absolute;
+    margin-bottom: 200px;
+  }
+  .marginT {
+    position: absolute;
+    margin-top: 200px;
+  }

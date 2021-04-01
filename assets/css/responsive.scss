@@ -1,0 +1,161 @@
+@media screen and (max-width: (576px)) {
+    /*----Register----*/ 
+    .block{
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-inline-end: 0px;
+        width: 400px;
+    }
+    .labin{
+        width: 350px;
+    }
+    .btnBack{
+        margin-left: 20px;
+    }
+
+    /*----Home----*/
+    .recherche-input{
+        width: 290px;
+    }
+    .filter select{
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 110px;
+        margin-top: 5px;
+    }
+    .filter{
+        text-align: center;
+        flex-direction: column;
+    }
+    .stages{
+        height: 60vh;
+    }
+    
+    
+}
+@media screen and (max-width: (768px)) {
+     /*----page register----*/
+     .bodyConnexion{
+        overflow-y: visible;
+        overflow-x: hidden;
+    }
+    .pageInscription{
+        flex-direction: column;
+    }
+    .shadow{
+        height: 170%;
+    }
+    .block{
+        margin-bottom: 20px;
+    }
+    /*----Home----*/
+    .stage h2{
+        width: 500px;
+        font-size: 1.25em;
+        
+    }
+    .stage h5{
+        font-size: 1em;
+    }
+    .stock{
+        display: flex;
+        flex-direction: column;
+    }
+    .stages{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+    .stage{
+        width: 400px;
+        height: 30vh;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px 5px 5px 5px;
+    }
+    .affichage{
+        width: 90%;
+        margin-top: -100px;
+    }
+    .homeBody{
+        overflow-x: hidden;
+    }
+    /*----Account----*/
+    .accountAffiche{
+        margin-bottom: 20px;
+    }
+    .blockWishlist{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+    .scroll_Wishlist{
+        width: 800px;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+    .scroll_wishlist h2{
+        font-size: 1.25em;
+    }
+    .scroll_wishlist h5{
+        font-size: 1em;
+    }
+    .wishlist{
+        height: 60%;
+        width: 340px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .scroll_wishlist_affichage{
+        margin-top: -25px;
+        width: 100%;
+    }
+    /*----account->newintership----*/
+    .form-stage{
+        flex-direction: column;
+        height: 800px;
+    }
+    .form-stage select{
+        margin-bottom: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 3px;
+    }
+    .descriptionStage{
+        width: 290px;
+        margin-left: 5%;
+    }
+    .listingCompetence{
+        margin-top: 30px;
+        height: 30vh;
+        width: 500px;
+        margin-left: -100px;
+    }
+
+    /*----Account -> Rate a company----*/
+    .nom_entreprise{
+        font-size: 1em;
+    }
+    .entreprises .entreprise{
+        width: 100%;
+    }
+    .affichage_entreprise{
+        margin-left: 5px;
+    }
+    .affichage_entreprise h2{
+        font-size: 1.7em;
+    }
+    
+    
+
+}
+@media screen and (max-width: (992px)) {
+}
